@@ -1,9 +1,4 @@
 window.sr = ScrollReveal();
-sr.reveal('.items-navbar', {
-  duration: 2000,
-  origin:'left',
-  distance:'200px'
-});
 sr.reveal('.items-izq', {
   duration: 1500,
   origin:'left',
