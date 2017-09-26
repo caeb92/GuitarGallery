@@ -1,0 +1,6 @@
+@mixin sombras($valor) {
+  -webkit-box-shadow: $valor;
+    -moz-box-shadow: $valor;
+      box-shadow: $valor;
+      elevation:2;
+}

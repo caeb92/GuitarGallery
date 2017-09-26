@@ -1,0 +1,12 @@
+@import "var";
+@import "mixins";
+@import "colors";
+@import "custom-bootstrap";
+
+// Clases HTML
+body {
+  font: 100% $fuente-default;
+  background-color: $color-fondo;
+  margin-top: 50px;
+}
+// Clases Custom
