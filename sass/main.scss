@@ -9,4 +9,18 @@ body {
   background-color: $color-fondo;
   margin-top: 50px;
 }
-// Clases Custom
+
+#feature-1{
+  @media screen and (min-width: $break-large){
+    margin-top:96px;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .feature-1-item-1{
+    @media screen and (max-width: $break-small){
+      margin: 48px 0px 48px 0px;
+    }
+  }
+}
